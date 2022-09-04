@@ -1,0 +1,39 @@
+.mealz-hero {
+    background-image: url("../../assets/images/mealz-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    object-fit: contain;
+}
+
+.hero-details {
+    width: 878px;
+    height: 220px;
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mealz-span {
+    color: #D1003F;
+    font-family: 'Righteous';
+    font-weight: 300;
+}
+
+@media screen and (max-width:768px) {
+    .mealz-hero {
+        height: 357px;
+        align-self: stretch;
+
+    }
+    .hero-details{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
