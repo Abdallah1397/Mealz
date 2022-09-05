@@ -1,0 +1,68 @@
+/* Main Div */
+.mealz-downloadInstructionsMainView {
+  position: relative;
+}
+/* Background */
+.mealz-backgroundImage {
+  position: absolute;
+  overflow: hidden;
+}
+.mealz-backgroundImage:nth-child(1) {
+  right: 0;
+}
+.mealz-backgroundImage:nth-child(2) {
+  left: 0;
+  bottom: 0;
+}
+/* Download Wrapper */
+.mealz-downloadInstructionsWrapper {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+
+}
+/* Phone Container */
+.mealz-phoneContainer{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+/* Instructions Section */
+.mealz-instructionsSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-left: -2rem;
+}
+.mealz-downloadHeading {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.mealz-instructionsList {
+  line-height: 2rem;
+}
+.mealz-appStore{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Small View */
+@media screen and (max-width: 768px) {
+    /* Background Image */
+  .mealz-backgroundImage {
+    width: 150px;
+    height: 150px;
+  }
+  .mealz-downloadInstructionsWrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:90%;
+    margin-left: 5%;
+  }
+}
