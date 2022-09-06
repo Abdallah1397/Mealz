@@ -27,14 +27,13 @@
     font-weight: 300;
 }
 
+/* Tablets & Larger smartphones */
 @media screen and (max-width:768px) {
     .mealz-hero {
         height: 357px;
-        align-self: stretch;
-
     }
     .hero-details{
         width: 80%;
-        margin-left: 10%;
+        margin: 0 10%;
     }
 }

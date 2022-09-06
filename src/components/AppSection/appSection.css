@@ -21,22 +21,20 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5rem;
-
 }
 /* Phone Container */
-.mealz-phoneContainer{
-    z-index: 1;
-    display: flex;
-    justify-content: center;
+.mealz-phoneContainer {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 /* Instructions Section */
 .mealz-instructionsSection {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-left: -2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 .mealz-downloadHeading {
   font-weight: 600;
@@ -46,23 +44,53 @@
 .mealz-instructionsList {
   line-height: 2rem;
 }
-.mealz-appStore{
-    display: flex;
-    justify-content: space-between;
+.mealz-appStore {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
 }
-
-/* Small View */
-@media screen and (max-width: 768px) {
-    /* Background Image */
-  .mealz-backgroundImage {
-    width: 150px;
-    height: 150px;
+/* Labtops, larger tablets in landscape, and small desktops */
+@media screen and (max-width: 1279px) {
+  /* download wrapper */
+  .mealz-downloadInstructionsWrapper {
+    width: 90%;
+    margin-left: 5%;
   }
-  .mealz-downloadInstructionsWrapper{
+}
+/* Tablets & Larger smartphones */
+@media screen and (max-width: 768px) {
+    /* download wrapper */
+    .mealz-downloadInstructionsWrapper {
+      padding: 2rem;
+    }
+  /* Background Image */
+  .mealz-backgroundImage {
+    width: 10rem;
+    height: 10rem;
+  }
+  /* download wrapper */
+  .mealz-downloadInstructionsWrapper {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width:90%;
+    width: 90%;
     margin-left: 5%;
+  }
+  .mealz-downloadHeading {
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .mealz-appStore {
+    margin: 1rem 0;
+  }
+}
+
+/* Smaller smartphones */
+@media screen and (max-width: 480px) {
+  /* download wrapper */
+  .mealz-downloadInstructionsWrapper {
+    width: 96%;
+    margin-left: 2%;
   }
 }
