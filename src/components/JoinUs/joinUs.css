@@ -1,3 +1,79 @@
-.joinUs{
-    background-color: #D1003F;
+/* Main Div */
+.joinUs {
+  background-color: #d1003f;
+  color: #fff;
+  position: relative;
+  padding: 2rem;
+  /* display: none; */
+}
+/* Burger Background */
+.joinUs-burgerImage {
+  position: absolute;
+  height: 15rem;
+  right: 20rem;
+  top: 3rem;
+  overflow: hidden;
+}
+/* Section Title */
+.joinUs-headingTitle {
+  text-align: center;
+  padding: 2rem;
+}
+/* Div Icons */
+.joinUs-Icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: 0 15%;
+}
+.icon {
+  z-index: 1;
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 0 3rem;
+}
+
+/* Tablets in landscape and small desktops */
+@media screen and (max-width: 1279px) {
+    /* Burger Background */
+    .joinUs-burgerImage {
+      height: 15rem;
+      right: 2rem;
+      top: 2rem;
+    }
+  /* Div Icons */
+  .joinUs-Icons {
+    width: 90%;
+    margin: 0 5%;
+    justify-content: center;
+  }
+  .icon{
+    margin: .6rem 1.2rem;
+  }
+}
+/* Smartphones */
+@media screen and (max-width: 768px) {
+  /* Burger Background */
+  .joinUs-burgerImage {
+    height: 15rem;
+    right: 0;
+    top: 3rem;
+  }
+  /* Div Icons */
+  .joinUs-Icons {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0.6rem 0;
+  }
 }
