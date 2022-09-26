@@ -16,16 +16,21 @@ const FAQ = () => {
         <div className="faq-questions">
           <div className="faq-question">
             <h2>What is Mealz?</h2>
-            <i className="fa fa-plus"/>
+            <i className="fa fa-plus" />
           </div>
           <div className="faq-question">
             <h2>What are the accepted payment methods?</h2>
-            <i className="fa fa-plus"/>
+            <i className="fa fa-plus" />
           </div>
           <div className="faq-question">
             <h2>What are Mealz working hours?</h2>
-            <i className="fa fa-plus"/>
+            <i className="fa fa-plus" />
           </div>
+        </div>
+        {/* Another Questions */}
+        <div className="faq-anotherQuestions">
+          <p>Got another question? We're here to help!</p>
+          <p>Email us at example@mealz.com</p>
         </div>
       </div>
     </div>

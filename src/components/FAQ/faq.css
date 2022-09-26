@@ -40,7 +40,13 @@
   margin: 0.5rem;
   background-color: #fff;
 }
-
+.faq-anotherQuestions{
+    margin: 2.5rem 0;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 @media (min-width: 769px) and (max-width: 1279px) {
   .faq-section {
     width: 90%;
@@ -76,4 +82,9 @@
     margin: 0.8rem 0;
     width: 100%;
   }
+  .faq-anotherQuestions{
+    margin: 1.5rem 0;
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
 }
