@@ -8,12 +8,17 @@ It's a static landing page for Mealz restaurant that contains:
 
 # Devices Support
 Mealz is compatible with devices of all sizes.
-
-    Small, larger smartphones, and tablets          |       Larger tablet and small desktops
-:--------------------------------------------------:|--------------------------------------------------------:
-![](/src/assets/images/Mealz%20shows/small.png)     |![](/src/assets/images/Mealz%20shows/medium.png)   
-
+ 
 ## Built with
 - React Js
 - CSS
 - Figma
+
+## Installation and Setup Instructions
+After cloning the repository. You will need node and npm installed gloabally on your machine.
+
+- Installation
+    npm install
+
+- Start Server
+    npm start
