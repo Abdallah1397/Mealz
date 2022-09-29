@@ -18,7 +18,7 @@ Mealz is compatible with devices of all sizes.
 After cloning the repository. You will need node and npm installed gloabally on your machine.
 
 - Installation
-    npm install
+npm install
 
 - Start Server
-    npm start
+npm start
