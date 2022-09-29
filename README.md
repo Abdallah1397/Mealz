@@ -8,7 +8,10 @@ It's a static landing page for Mealz restaurant that contains:
 
 # Devices Support
 Mealz is compatible with devices of all sizes.
-![Mealz Restaurant!](/src/assets/images/Mealz%20shows/medium.png "Mealz Restaurant") ![Mealz Restaurant!](/src/assets/images/Mealz%20shows/small.png "Mealz Restaurant")
+
+    Small, larger smartphones, and tablets          |       Larger tablet and small desktops
+:--------------------------------------------------:|--------------------------------------------------------:
+![](/src/assets/images/Mealz%20shows/small.png)     |![](/src/assets/images/Mealz%20shows/medium.png)   
 
 ## Built with
 - React Js
