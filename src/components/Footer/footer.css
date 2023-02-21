@@ -24,10 +24,10 @@
   line-height: 2.5rem;
 }
 .footer-logo {
+  font-weight: 400;
   font-family: "Righteous";
   letter-spacing: 0.1rem;
   font-size: 2rem;
-  font-weight: 400;
 }
 @media (min-width: 769px) and (max-width:1279px) {
   .footer {
